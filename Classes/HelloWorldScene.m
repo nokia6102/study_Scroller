@@ -5,7 +5,7 @@
 //  Created by lee living on 11-2-24.
 //  Copyright LieHuo Tech 2011. All rights reserved.
 //
-
+§§
 // Import the interfaces
 #import "HelloWorldScene.h"
 #import "CCScrollLayer.h"
@@ -68,10 +68,15 @@
 	// create a label for page 1
 //	CCLabelTTF *label = [CCLabelTTF labelWithString:@"Page 1" fontName:@"Arial Rounded MT Bold" fontSize:44];
 //	label.position =  ccp( screenSize.width /2 , screenSize.height/2 );
-  CCMenuItem *menu1=[CCMenuItemImage itemFromNormalImage:@"image1.png" selectedImage:nil target:self selector:@selector(testCallback:)];
-  menu1.position = ccp(screenSize.width/2, screenSize.height/2);
-	// add label to page 1 layer
-	[pageOne addChild:menu1];
+  //主要這裡先做一個ccmenu裡面塞一張圖Normal是原來的，select是選擇狀態
+  CCMenuItem *menuItem1=[CCMenuItemImage itemFromNormalImage:@"image1.png" selectedImage:@"image3.png" target:self selector:@selector(testCallback:)];
+//  menuItem1.position = ccp(screenSize.width/2, screenSize.height/2);
+	CCMenu *mmenu1=[CCMenu menuWithItems:menuItem1, nil];
+  mmenu1.position = ccp(screenSize.width/2, screenSize.height/2);
+	
+  // add Menu to page 1 layer
+  //把menu加入pageOne的layout中
+  [pageOne addChild:mmenu1];
 	
 	/////////////////////////////////////////////////
 	// PAGE 2
@@ -106,6 +111,8 @@
 	[pageThree addChild:menu3];
 	
 	// now create the scroller and pass-in the pages (set widthOffset to 0 for fullscreen pages)
+  //這邊是重點！把page都加入CCScrollLayer中
+  //WidthOffset是間距 200的話間距會小一點
 	CCScrollLayer *scroller = [[CCScrollLayer alloc] initWithLayers:[NSMutableArray arrayWithObjects: pageOne,pageTwo,pageThree,nil] 
 														widthOffset: 200];
 	
@@ -114,6 +121,7 @@
 	
 	// page moved delegate
 	{
+    
 		NSMethodSignature* signature = 
 		[[self class] instanceMethodSignatureForSelector:@selector(onPageMoved:)];
 		

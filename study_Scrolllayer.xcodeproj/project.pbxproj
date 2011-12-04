@@ -69,6 +69,9 @@
 		DB0863051487E69200F905E3 /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = DB0863021487E69200F905E3 /* image2.png */; };
 		DB0863061487E69200F905E3 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = DB0863031487E69200F905E3 /* image1.png */; };
 		DB0863071487E69200F905E3 /* image3.png in Resources */ = {isa = PBXBuildFile; fileRef = DB0863041487E69200F905E3 /* image3.png */; };
+		DB4868071488F9BD005A37A8 /* image10.png in Resources */ = {isa = PBXBuildFile; fileRef = DB4868041488F9BD005A37A8 /* image10.png */; };
+		DB4868081488F9BD005A37A8 /* image20.png in Resources */ = {isa = PBXBuildFile; fileRef = DB4868051488F9BD005A37A8 /* image20.png */; };
+		DB4868091488F9BD005A37A8 /* image30.png in Resources */ = {isa = PBXBuildFile; fileRef = DB4868061488F9BD005A37A8 /* image30.png */; };
 		DC6640030F83B3EA000B3E49 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6640020F83B3EA000B3E49 /* AudioToolbox.framework */; };
 		DC6640050F83B3EA000B3E49 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6640040F83B3EA000B3E49 /* OpenAL.framework */; };
 		DCCBF1B70F6022AE0040855A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCBF1B60F6022AE0040855A /* CoreGraphics.framework */; };
@@ -325,6 +328,9 @@
 		DB0863021487E69200F905E3 /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
 		DB0863031487E69200F905E3 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
 		DB0863041487E69200F905E3 /* image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image3.png; sourceTree = "<group>"; };
+		DB4868041488F9BD005A37A8 /* image10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image10.png; sourceTree = "<group>"; };
+		DB4868051488F9BD005A37A8 /* image20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image20.png; sourceTree = "<group>"; };
+		DB4868061488F9BD005A37A8 /* image30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image30.png; sourceTree = "<group>"; };
 		DC6640020F83B3EA000B3E49 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		DC6640040F83B3EA000B3E49 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		DCCBF1B60F6022AE0040855A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -560,6 +566,9 @@
 				DB0863021487E69200F905E3 /* image2.png */,
 				DB0863031487E69200F905E3 /* image1.png */,
 				DB0863041487E69200F905E3 /* image3.png */,
+				DB4868041488F9BD005A37A8 /* image10.png */,
+				DB4868051488F9BD005A37A8 /* image20.png */,
+				DB4868061488F9BD005A37A8 /* image30.png */,
 				504DFC6910AF1739006D82FE /* LICENSE.cocosdenshion */,
 				506EDAA3102F461B00A389B3 /* cocos2d Sources */,
 				2D500B1D0D5A766B00DBA0E3 /* Classes */,
@@ -1138,6 +1147,9 @@
 				DB0863051487E69200F905E3 /* image2.png in Resources */,
 				DB0863061487E69200F905E3 /* image1.png in Resources */,
 				DB0863071487E69200F905E3 /* image3.png in Resources */,
+				DB4868071488F9BD005A37A8 /* image10.png in Resources */,
+				DB4868081488F9BD005A37A8 /* image20.png in Resources */,
+				DB4868091488F9BD005A37A8 /* image30.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
